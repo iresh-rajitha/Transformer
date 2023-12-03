@@ -1,5 +1,4 @@
 dictionary*
 *.subwords
-.idea
 *.log
 /node_modules/
