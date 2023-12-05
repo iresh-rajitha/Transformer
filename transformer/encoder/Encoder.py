@@ -33,7 +33,6 @@ def encoder(vocab_size,
         inputs=[inputs, padding_mask], outputs=outputs, name=name)
 
 
-
 def encoder_layer(units, d_model, num_heads, dropout, name="encoder_layer"):
     inputs = tf.keras.Input(shape=(None, d_model), name="inputs")
     padding_mask = tf.keras.Input(shape=(1, 1, None), name="padding_mask")

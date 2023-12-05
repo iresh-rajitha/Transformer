@@ -1,8 +1,8 @@
 import tensorflow as tf
 
-from Transformer.Decoder.Decoder import decoder
-from Transformer.Encoder.Encoder import encoder
-from Transformer.Masking import create_padding_mask, create_look_ahead_mask
+from transformer.Masking import create_padding_mask, create_look_ahead_mask
+from transformer.decoder.Decoder import decoder
+from transformer.encoder.Encoder import encoder
 
 
 def transformer(vocab_size,
